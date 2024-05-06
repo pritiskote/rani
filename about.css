@@ -1,0 +1,42 @@
+li{
+    font-family: 'Times New Roman', Times, serif;
+}
+#about {
+    background-color:white;
+    padding: 50px 0;
+  }
+  .head{
+    text-align: center;
+  }
+  
+  #about .container {
+    text-align: left;
+    width: jjl;
+  }
+  
+  #about h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #about ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 40px;
+  }
+  
+  #about ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    /* display: inline; */
+  }

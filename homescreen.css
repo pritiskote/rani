@@ -1,0 +1,156 @@
+html, body {
+    background-color:rgba(238, 195, 192, 0.484); /* Set background color of the entire webpage to white */
+  }
+  
+  
+  .container1{
+    background-color: rgb(227, 177, 177);
+  }
+  .fw-light {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .album-create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+ .btn{
+  color: black;
+ }
+  
+  .lead-text-muted {
+    display: flex;
+    font-family:cursive;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px;
+    font-size: x-large;
+  }
+  
+  .fw-light {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size:10cap;
+  }
+  
+  .thumbnail {
+    background-color:white;
+  }
+  
+  .nav-item {
+    color: black;
+  }
+  
+  .btn.btn-light.my-2 {
+    margin-left: 10px;
+  }
+
+  .container {
+    font-size: medium;
+    font-family:serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .container2, .thumbnail{
+    background-color:rgb(236, 213, 213);
+  }
+  
+  .advice-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  
+  /* .advice {
+    background-color:palevioletred;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  } */
+  .advice {
+    background-image: url('Background.png'); /* Replace 'advice_background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  #blog-posts {
+
+    margin-top: 20px;
+  }
+  
+  .blog-posts-background{
+    background-color: aqua;
+  }
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color:white; 
+  }
+  body {
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin: 0;
+    padding: 0;
+  }
+  .advice {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden; /* This is important to ensure the image doesn't overflow */
+  }
+  
+  .advice img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire container */
+    z-index: -1; /* This places the image behind the content */
+  }
+  
+  .advice-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .advice-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .card-body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RANI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="homescreen.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container1">
+      <div class="navbar-create">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentcolor
+                "
+                class="bi bi-arrow-through-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a22 22 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354zm2.893-4.894A20.4 20.4 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708z"
+                />
+              </svg>
+              rani</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./homescreen.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Topics
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Politics</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Health and Wellness</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Academics</a></li>
+                    <li><a class="dropdown-item" href="#">Sports</a></li>
+
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Submit your own article!</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                 id="search-bar"
+                 class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-dark" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="album-create">
+      <div class="album-create1">
+        <h1 class="fw-light">RANI</h1>
+        <div></div>
+        <div class="lead-text-muted">
+          <p>You look beautiful today</p>
+        </div>
+        <!-- <p>
+          <a href="#" class="btn btn-light my-2">Log In</a>
+        </p> -->
+      </div>
+    </div>
+    <div class="advice">
+      <img src="path_to_your_image.jpg" alt="Advice Background" />
+      <div class="container">
+        <h1>Need Advice?</h1>
+        <p>Check out our forum!</p>
+
+        <button class="advice-button" onclick="getAdvice()">Get Advice</button>
+        <div id="advice" class="advice" style="display: none">
+          <h2>Your Advice:</h2>
+          <p id="advice-text"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="blog-posts" class="blog-posts-background">
+      
+      <div class="thumbnail">
+        
+        <div class="album py-5">
+          
+          <div class="container2">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              
+              <div class="col">
+                <div class="card">
+                  <svg
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="220"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Mercury in Retrograde</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+
+                  <div class="card-body">
+                    <div class="article-title">
+                      <h3>How is Mercury Retrograde Going to Affect You?</h3>
+                    </div>
+                    <p class="card-text">Good Luck Ladies</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <svg
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c" ></rect>
+                    
+                  </svg>
+
+                  <div class="card-body">
+                    <div class="article-title">
+                      <h3>Adjusting to Dining Hall Food</h3>
+                    </div>
+                    <p class="card-text">Get used to eating pizza</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <svg
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                      Thumbnail
+                    </text>
+                  </svg>
+
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading indicator -->
+    <div id="loading" style="display: none; text-align: center">
+      <img src="loading.gif" alt="Loading..." width="50" />
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="homescreen.js"></script>
+  </body>
+</html>
